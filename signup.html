@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon"
+        href="https://img.icons8.com/external-bearicons-gradient-bearicons/64/000000/external-signup-call-to-action-bearicons-gradient-bearicons.png"
+        type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="css/signup.css"> -->
+        <link rel="stylesheet" href="css/signup.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <form id="form"  method="post">
+        <div class="container">
+            <fieldset>
+                <legend>SIGN UP</legend>
+            <div class="big-icon center">
+                <i class="fas fa-user-circle fa-8x"></i>
+            </div>
+            
+                <div class="firstlast marg center">
+                    <i class="fas fa-sign-in-alt mini-icon"></i>
+                    <input type="text" name="fname" class="fistname fl input" id="fname" placeholder="First Name">
+                    <input type="text" name="lname" class="lastname fl input" id="lname" placeholder="last Name">
+                </div>
+            
+            <div class="emaildiv marg center">
+                <i class="fas fa-arrow-circle-right mini-icon"></i>
+                <input type="email" class="email input" id="email" placeholder="EMAIL">
+            </div>
+            <div class="usernamediv marg center">
+                <i class="fas fa-at mini-icon mini-icon-2"></i>
+                        <input type="text" name="username" class="user--name input input-2" id="username" placeholder="Username">
+            </div>
+            <div class="passworddiv marg center">
+                <i class="fas fa-key mini-icon mini-icon-2"></i>
+
+                        <input type="password" placeholder="PASSWORD" name="password" id="password" class="pass-word input input-2">
+            </div>
+            <div class="confirmpassworddiv marg center">
+                <i class="fas fa-key mini-icon mini-icon-2"></i>
+
+                        <input type="password" placeholder="CONFIRM PASSWORD" name="password" id="confirmpassword" class="pass-word input input-2">
+            </div>
+           
+                <div class="submitbtn marg center">
+                    <input type="submit"   id='signup'class="login ls" value="SIGN UP"> 
+                </div>
+                <div class="signup marg center"> 
+    <button id="login" class="signup ls">LOG IN</button>
+                </div>
+            </div>
+        </fieldset>
+        </div>
+            
+        
+    </form>
+    <script src="javascript/signup.js"></script>
+</body>
+
+</html>

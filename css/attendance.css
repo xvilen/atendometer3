@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+fieldset {
+  width: 450px;
+  margin-top: 40px;
+  border-radius: 25px;
+  background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  border: 7px solid rgba(0, 0, 0, 0.192);
+}
+.fa-user-circle{
+    display: flex;
+justify-content: center;
+color: rgb(255, 255, 255);
+margin: 25px 0px;
+}
+.big_icon{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+    display: flex;
+justify-content: center;
+
+}
+button{
+    background: yellow;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 15px;
+padding:6px 32px;
+}
+.nxt{
+    float: right;
+}
+.next {
+    margin-top: 57px;
+    padding: 5px 16px;
+  }
+
+  .video{
+    width: 160px;
+    height: 160px;
+    border: 5px solid black;
+    border-radius: 50%;
+   
+    margin: 25px;
+
+  }

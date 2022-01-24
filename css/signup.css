@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+fieldset {
+  width: 647px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 7px solid rgba(94, 255, 0, 0.192);
+  border-radius: 25px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: calc((100vh - 600px) / 3) 0px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+legend {
+  color: rgb(0, 0, 0);
+  font-family: "Dongle", sans-serif;
+  font-size: 43px;
+}
+.big-icon {
+  height: 25%;
+  align-items: center;
+}
+.fa-user-circle {
+  color: white;
+}
+.fa-user-circle:hover {
+  color: rgb(0, 0, 0);
+}
+.mini-icon {
+  background: yellow;
+  display: flex;
+  align-items: center;
+  width: 6%;
+  justify-content: center;
+}
+.mini-icon:hover {
+  background-color: red;
+}
+.input {
+  width: 30%;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 11px 11px;
+}
+.input::placeholder {
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
+}
+.input:hover {
+  background-color: rgba(255, 255, 255, 0.274);
+}
+.input:focus,
+.input:focus::placeholder {
+  background-color: white;
+  outline: none !important;
+  box-shadow: 0 0 30px #0873e6;
+  color: black;
+}
+.email {
+  width: 50%;
+}
+.ups {
+  margin: 25px 0px;
+}
+.ls {
+  background-color: yellow;
+  border: 2px solid yellow;
+  width: 113px;
+  height: 38px;
+  border-radius: 11px;
+  font-family: "Dongle", sans-serif;
+
+  font-size: 31px;
+}
+.ls:hover {
+  background: none;
+}
+.marg {
+  margin: 17px 0px;
+}

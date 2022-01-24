@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@media only screen and (max-width: 992px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+}
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vmax 100vmax;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: calc((100vh - 457px)/2.4) 0px;
+}
+fieldset {
+  width: 387px;
+  height: 457px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 7px solid rgba(94, 255, 0, 0.192);
+  border-radius: 25px;
+}
+legend {
+  color: rgb(0, 0, 0);
+  font-family: "Dongle", sans-serif;
+  font-size: 43px;
+  background: none;
+}
+.fa-user {
+  color: rgb(255, 255, 255);
+}
+.fa-user:hover {
+  color: rgb(0, 0, 0);
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.big-icon {
+  height: 25%;
+  align-items: center;
+}
+.up {
+  width: 50%;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 11px 11px;
+}
+.up::placeholder {
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
+}
+.up:hover {
+  background-color: rgba(255, 255, 255, 0.274);
+}
+.up:focus,
+.up:focus::placeholder {
+  background-color: white;
+  outline: none !important;
+  box-shadow: 0 0 30px #0873e6;
+  color: black;
+}
+.ups {
+  margin: 25px 0px;
+}
+.mini-icon {
+  background: yellow;
+  display: flex;
+  align-items: center;
+  width: 9%;
+  justify-content: center;
+}
+.mini-icon:hover {
+    background-color: red;
+  }
+.forget {
+  font-size: 15px;
+  position: relative;
+  bottom: 14px;
+  left: 53px;
+  color: black;
+  text-decoration: none;
+}
+
+.ls {
+  background-color: yellow;
+  border: 2px solid yellow;
+  width: 113px;
+  height: 38px;
+  border-radius: 11px;
+  font-family: "Dongle", sans-serif;
+
+  font-size: 31px;
+}
+.ls:hover{
+    background: none;
+}
+.signup{
+ margin: 30px 0px;
+}

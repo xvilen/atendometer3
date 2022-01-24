@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap");
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+fieldset {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 7px solid rgba(94, 255, 0, 0.192);
+  border-radius: 25px;
+  width: 60vw;
+  height: 54vh;
+}
+legend {
+  color: rgb(0, 0, 0);
+  font-family: "Dongle", sans-serif;
+  font-size: 43px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: calc((100vh - 600px) / 2) 0px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 30%;
+  padding: 11px 11px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+}
+.input::placeholder {
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
+}
+.input:focus {
+  background-color: rgb(255, 255, 255);
+  outline: none !important;
+  box-shadow: 0 0 30px #0873e6;
+}
+.input:focus::placeholder {
+  color: black;
+}
+.input:hover {
+  background-color: rgba(255, 255, 255, 0.274);
+}
+.collagename {
+  width: 50%;
+}
+.mini-icon {
+  font-weight: 900;
+  background: yellow;
+  width: 7%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.mini-icon:hover{
+  background-color: red;
+}
+.semm {
+  padding: 9px;
+  background-color: yellow;
+  border: 2px solid yellow;
+}
+.semm:hover{background-color: red;}
+.id {
+  background: none;
+  padding: 8px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+
+  width: 188px;
+}
+.subm {
+  display: flex;
+  justify-content: center;
+}
+#submit {
+  padding: 0px 15px;
+  background: yellow;
+  border: 2px solid yellow;
+  border-radius: 12px;
+  font-family: "Dongle", sans-serif;
+  font-size: 25px;
+}
+#submit:hover{
+  background: none;
+}
+.marg {
+  margin: 17px 0px;
+}
