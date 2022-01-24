@@ -57,7 +57,7 @@ for (const [key, value] of Object.entries(syllabusapi.it[localStorage.getItem('S
     k.push(key)
     
   }
-nameenroll.innerHTML=`${Enrolment} ${firstname} ${lastname}`
+nameenroll.innerHTML=`${Enrolment}${firstname} ${lastname}`
 
 let sr=` <tr class="headimg " >
 <th>SRC</th>

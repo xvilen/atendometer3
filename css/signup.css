@@ -98,3 +98,15 @@ legend {
 .marg {
   margin: 17px 0px;
 }
+@media screen and (max-width: 1000px) {
+  .input{
+    width:40%;
+  }
+  .email{
+    width: 65%;
+  }
+  .ls{
+    width: 140px;
+    height: 45px;
+  }
+}
